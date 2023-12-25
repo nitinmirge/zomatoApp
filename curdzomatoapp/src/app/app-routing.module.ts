@@ -7,6 +7,10 @@ import { RestaurantservingfoodComponent } from './components/restaurantservingfo
 
 const routes: Routes = [ 
   {
+    path:'**',
+    component:FoodsComponent
+  },
+    {
     path: 'foods',
     component: FoodsComponent
   },
